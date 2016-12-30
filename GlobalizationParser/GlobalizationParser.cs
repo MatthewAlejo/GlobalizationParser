@@ -19,7 +19,7 @@ namespace GlobalizationPointsOfInterest
     {
 
         #region Fields
-
+        /*Global variables*/
         private const int CS = 0;
         private const int CSHTML = 1;
         private const int JS = 2;
@@ -46,7 +46,7 @@ namespace GlobalizationPointsOfInterest
         private Bitmap _bufKey_Blue;
         private Bitmap _bufKey_Orange;
 
-        //Declarations to describe and alter thee attributes of the treeview item
+        //Declarations to describe and alter the attributes of the treeview item
         private const int TVIF_STATE = 0x8;
         private const int TVIS_STATEIMAGEMASK = 0xF000;
         private const int TV_FIRST = 0x1100;
