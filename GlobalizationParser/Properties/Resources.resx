@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Msg_Warning" xml:space="preserve">
+    <value>This is a sample warning message!</value>
+  </data>
+  <data name="Label_Analyze_Sln" xml:space="preserve">
+    <value>Solution Info (Project Name : Number of Files)</value>
+  </data>
+  <data name="Export_Format" xml:space="preserve">
+    <value>{0}
+
+{1}</value>
+  </data>
+  <data name="Label_DateFormat" xml:space="preserve">
+    <value>Date Formats</value>
+  </data>
+  <data name="Msg_Help_Results" xml:space="preserve">
+    <value>This section displays the results of the parsing in real time for each parsing category.  The top bar graph in blue displays the number of matches as they occur.  The bottom bar graph in orange displays the number of files the matches occur in.  Clicking on any category will bring you to that particular category's results page.  In each results page, you can find the following:
+
+a) The name of the file the matches were found in and how many matches were found in that file
+b) The line number in the code where the match occurred paired with the line itself
+
+After the parsing is complete or cancelled, the results display in the window may be sorted for easier viewing and may also be saved and exported to a plain text file using the "ExportText" button found at the bottom of each category page.</value>
+  </data>
+  <data name="Label_HardCoded" xml:space="preserve">
+    <value>Hard Coded Strings</value>
+  </data>
+  <data name="Filename_HardCode" xml:space="preserve">
+    <value>Hard Coded Strings</value>
+  </data>
+  <data name="Msg_FileType" xml:space="preserve">
+    <value>Please select the file type(s) you wish to parse!</value>
+  </data>
+  <data name="Msg_ExportWarning" xml:space="preserve">
+    <value>There is no data to ExportText!</value>
+  </data>
+  <data name="Filter_Resource" xml:space="preserve">
+    <value>Resource Files (.resx)|*.resx</value>
+  </data>
+  <data name="Label_HardCoded_Results" xml:space="preserve">
+    <value>Hard Coded Strings: 
+{0} total hard coded found in {1} files</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Help" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Help.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Label_Processing" xml:space="preserve">
+    <value>Analyzing C# file {0} of {1} in directory 
+{2}</value>
+  </data>
+  <data name="Label_Compare" xml:space="preserve">
+    <value>String Comparisons</value>
+  </data>
+  <data name="Filename_Decimal" xml:space="preserve">
+    <value>Decimal Formats</value>
+  </data>
+  <data name="Filename_Func" xml:space="preserve">
+    <value>Functions Returning Strings</value>
+  </data>
+  <data name="TextBox_Results_Cases" xml:space="preserve">
+    <value>{0} case(s) found in {1}
+{2}
+</value>
+  </data>
+  <data name="Filename_Concats" xml:space="preserve">
+    <value>String Concatenations</value>
+  </data>
+  <data name="Msg_Cancelled" xml:space="preserve">
+    <value>Cancelled!</value>
+  </data>
+  <data name="Msg_Input_Missing" xml:space="preserve">
+    <value>Please enter a valid Input .sln file/directory path</value>
+  </data>
+  <data name="ListBox_Items" xml:space="preserve">
+    <value>{0} : {1}
+</value>
+  </data>
+  <data name="Label_Concat" xml:space="preserve">
+    <value>String Concatenations</value>
+  </data>
+  <data name="Label_Func" xml:space="preserve">
+    <value>Functions Returning Strings</value>
+  </data>
+  <data name="Filename_Date" xml:space="preserve">
+    <value>Date Formats</value>
+  </data>
+  <data name="Label_Decimal_Results" xml:space="preserve">
+    <value>Decimal Formats: 
+{0} total decimal formats found in {1} files</value>
+  </data>
+  <data name="ListBox_Working" xml:space="preserve">
+    <value>Analyzing ... just a moment ...</value>
+  </data>
+  <data name="Msg_Help_Config" xml:space="preserve">
+    <value>Step 1) Select to Parse a Solution File or a Directory
+Choosing a Solution will parse the selected filetypes associated with the Solution.  Choosing a Directory will parse all selected filetypes within a directory and its subdirectories.
+
+Step 2) Choose a filetype to Parse
+This program currently supports parsing for C# files (.cs), CSHTML files (.cshtml), and Javascript files (.js).  Different parsing options are available depending on which filetype is chosen
+
+Step 3) Use the "Browse" button to select the Solution or Directory to Parse through
+
+Step 3a) If a Solution File is Selected, you may filter which CS project files (.csproj) associated with that solution to parse.  Only files referenced in the selected CS project files will be parsed.  All projects are selected by default.  You may modify this list with the "Filter Projects" Button.
+
+Step 4) Filter results with Parsing Categories
+Depending on which filetype is selected, different parsing categories will be available.  Categories not compatible with the selected filetype will be greyed out and non-selectable.
+
+Step 5) Click Start
+Clicking the Start button initiates the program.  The "Cancel" button will stop the process immediately.  The "Clear Form" button will clear the contents of the Result screens and chosen Parsing categories, but not the Info panel.</value>
+  </data>
+  <data name="Msg_Checkbox" xml:space="preserve">
+    <value>Please select a Category by marking the corresponding checkbox!</value>
+  </data>
+  <data name="Msg_Error" xml:space="preserve">
+    <value>Error: {0}</value>
+  </data>
+  <data name="Label_Directory" xml:space="preserve">
+    <value>\r\nIn directory: {0}</value>
+  </data>
+  <data name="Label_Decimal" xml:space="preserve">
+    <value>Decimal Formats</value>
+  </data>
+  <data name="Filename_Construction" xml:space="preserve">
+    <value>{0}_{1}_{2}</value>
+  </data>
+  <data name="TextBox_Results_Line" xml:space="preserve">
+    <value>	Line {0} _____ {1}
+</value>
+  </data>
+  <data name="Label_Analyze_Dir" xml:space="preserve">
+    <value>Directory Info (File Type : Frequency)</value>
+  </data>
+  <data name="Filename_Compare" xml:space="preserve">
+    <value>String Comparisons</value>
+  </data>
+  <data name="ListBox_Sln_Results" xml:space="preserve">
+    <value>.sln Analysis Results</value>
+  </data>
+  <data name="Label_Func_Results" xml:space="preserve">
+    <value>Functions Returning Strings: 
+{0} total functions returning strings found in {1} files</value>
+  </data>
+  <data name="Label_Percentage_Cancelled" xml:space="preserve">
+    <value>Cancelled at </value>
+  </data>
+  <data name="ListBox_Total" xml:space="preserve">
+    <value>Total number of files: {0}</value>
+  </data>
+  <data name="Label_DateFormat_Results" xml:space="preserve">
+    <value>Date Formats: 
+{0} total date formats found in {1} files</value>
+  </data>
+  <data name="ListBox_Dir_Results" xml:space="preserve">
+    <value>Directory Analysis Results:</value>
+  </data>
+  <data name="Treeview_Results" xml:space="preserve">
+    <value>{0} case(s) found in {1}</value>
+  </data>
+  <data name="Msg_Help_Info" xml:space="preserve">
+    <value>This Window Displays Information on the Selected Solution File or Directory
+
+Solution:
+Displays the total number of the selected file type within the chosen project file(s).  The information display is done automatically every time a new Solution File or Directory is chosen
+
+Directory:
+Displays the total number of files within the directory and all subdirectories followed by a list of filetypes and their frequency, sorted from most frequent ocurring to the least used</value>
+  </data>
+  <data name="Label_Compare_Results" xml:space="preserve">
+    <value>String Comparisons: 
+{0} total comparisons found in {1} files</value>
+  </data>
+  <data name="Msg_Complete" xml:space="preserve">
+    <value>Analysis Complete</value>
+  </data>
+  <data name="Label_Concat_Results" xml:space="preserve">
+    <value>String Concatenations: 
+{0} total concatenations found in {1} files</value>
+  </data>
+  <data name="Lbl_OverView_Results" xml:space="preserve">
+    <value>Results For Filetype: {0} in Project/Folder: {1}</value>
+  </data>
+  <data name="Msg_Help_Compare" xml:space="preserve">
+    <value>String comparison is the act of comparing the values of two strings.  Comparisons are based on the sort order of each character, and thus differ between locations and must be addressed for localization.  Selecting this feature displays every instance of comparing strings by searching for use of .NET string-combining functions String.Compare, String.CompareTo, String.Equals, and also the StringComparison Enumerator, which is used to specify culture, case, and sort rules used by the previously mentioned .NET string comparison functions.
+
+Use the drop down menu and the "Expand/Collapse" button to modify the presentation of the results..</value>
+  </data>
+  <data name="Msg_Help_Concat" xml:space="preserve">
+    <value>String Concatenation is the act of combining multiple strings into one in code.  Selecting this feature displays every instance of combining strings within all C# files by searching for use of .NET string-combining function String.Concat and the use of concatenation operation (+) in combination with double quotes (“”).
+
+Use the drop down menu and the "Expand/Collapse" button to modify the presentation of the results.</value>
+  </data>
+  <data name="Msg_Help_Date" xml:space="preserve">
+    <value>This page features instances of hard-coded date format found in the files.  Date formats vary by region, and thus should not be explicitly formatted in source code.  The pattern searches for two to four consecutive “y” characters followed by a slash / or a dash – character.  For example: “yy-” and “/yyyy” would both produce matches.
+
+Use the drop down menu and the "Expand/Collapse" button to modify the presentation of the results.</value>
+  </data>
+  <data name="Msg_Help_Decimal" xml:space="preserve">
+    <value>This page features instances of hard coded Decimal Formats found in the files.  Decimal formats vary by region, and thus should not be explicitly formatted in source code.  In C#, numeric formats are hard-coded using the combination of numbers and pound characters to specify how many numbers are to be shown before or after a decimal.  Thus, the Regular Expression pattern searches for one or more pound characters (#) followed by a period (.) or comma (,) and then finally any number 0-9 or another pound character (#).  For example: “###.0” will produce a match.  It also searches for the reverse of the pattern, with numbers first followed by the periods, commas, and pound characters.  For example: “0.####” will produce a match.
+
+Use the drop down menu and the "Expand/Collapse" button to modify the presentation of the results.</value>
+  </data>
+  <data name="Msg_Help_Func" xml:space="preserve">
+    <value>This page features matches for Functions that return type String.  The Regular Expression used searches for the word “string” as the return type for patterns matching method signatures.  The pattern matching accounts for additional and optional modifiers that may be found in the method signature (i.e. abstract, sealed, static) and creates matches based solely on the return type.
+
+Use the drop down menu and the "Expand/Collapse" button to modify the presentation of the results.</value>
+  </data>
+  <data name="Msg_Help_HardCoded" xml:space="preserve">
+    <value>This page features instances of strings directly embedded into the code.  As much as possible, strings should not be explicitly placed in code and instead be transferred over to an external Resource file.  The Regular Expression used matches alphabetic characters and spaces enclosed in an open and closed double quote.
+
+Use the drop down menu and the "Expand/Collapse" button to modify the presentation of the results.</value>
+  </data>
+</root>
